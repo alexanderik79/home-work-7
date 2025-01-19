@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+.block {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.inline {
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 5px;
+    border: 1px dashed green;
+}
+
+
+.flex {
+    display: flex;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+
+.float-left {
+    float: left;
+    width: 45%;
+    background-color: lightyellow;
+    margin: 5px;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    background-color: lightgray;
+    margin: 5px;
+}
+
+.clear-both {
+    clear: both;
+    background-color: lightpink;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.static {
+    position: static;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #777;
+}
